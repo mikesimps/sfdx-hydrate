@@ -35,6 +35,7 @@ This will produce an XML string, and pipe it directly into the file called packa
 |---|---|
 |-a, --api|Set the API version of the packagexml file (Default is 42.0)|
 |-c, --config|Configuration file to help make pulling metadata more scriptable|
+|-x, --excludeManaged|Exclude Managed Packages from output|
 |-f, --formatxml| Formats the xml output in an easier to read format
 |-q, --quickfilter| CSV list of metadata types to filter
 
