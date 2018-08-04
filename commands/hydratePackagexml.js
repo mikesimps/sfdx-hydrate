@@ -166,7 +166,7 @@ const xf = require('xml-formatter');
           });
 
           Promise.all([unfolderedObjectsPromise, folderedObjectsPromise, FlowActiveVersionPromise]).then(([unfolderedObjects, folderedObjects, activeFlowVersions]) => {
-            console.error(activeFlowVersions);
+            // console.error(activeFlowVersions);
             unfolderedObjects.forEach((unfolderedObject) => {
               try {
                 if (unfolderedObject) {
